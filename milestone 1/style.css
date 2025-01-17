@@ -1,0 +1,73 @@
+/* general styling */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: wheat;
+    margin: 0;
+    padding: 150px;
+}
+.resume-container{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+/* left section */
+.left-section{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid green;
+}
+.Profile-picture{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 5px solid green;
+    margin-bottom: 20 px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul{
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+ul li{
+    margin: 5px 0;
+}
+
+/* Right section */
+.right-section{
+    padding: 20px;
+    width: 65%;
+    background-color: blanchedalmond;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px green;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;    
+}
+
+button:hover{
+    background-color: brown;
+
+}
